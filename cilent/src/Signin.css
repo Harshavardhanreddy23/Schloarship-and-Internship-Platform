@@ -1,0 +1,54 @@
+.signin-container {
+  background: linear-gradient(135deg, #3b5998 0%, #8b9dc3 100%);
+  padding: 50px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 40px auto 50px; /* Leaves space below navbar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signin-container h2,
+.signin-container p {
+  color: #fff;
+}
+
+.signin-container a {
+  color: #ffeb3b;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  color: #fff;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.signin-button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffeb3b;
+  color: #3b5998;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signin-button:hover {
+  background-color: #fdd835;
+}

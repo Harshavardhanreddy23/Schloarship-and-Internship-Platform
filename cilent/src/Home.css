@@ -1,0 +1,166 @@
+/* Home.css */
+.bg-gray-100 {
+    background-color: #f7fafc;
+  }
+  
+  .bg-blue-600 {
+    background-color: #3182ce;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .text-blue-500 {
+    color: #4299e1;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .m-4 {
+    margin: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .space-x-6 > * + * {
+    margin-left: 1.5rem;
+  }
+  
+  .nav-link {
+    color: white; /* Change text color to black */
+    background-color: #3182ce;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .hover\\:underline:hover {
+    text-decoration: underline;
+  }
+  
+  .bg-blue-500 {
+    background-color: #4299e1;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .content-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .content-image {
+    width: 150px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .content-image.left {
+    margin-right: 1.5rem;
+  }
+  
+  .content-image.right {
+    margin-left: 1.5rem;
+  }
+  
+  .content-text {
+    max-width: 600px;
+  }
+  
+  /* Styling for Home Component */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Align right below the Sign In button */
+  left: 0; /* Align horizontally with the button */
+  border: 1px solid #4299e1;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px #4299e1;
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px 15px;
+  text-align: left;
+  cursor: pointer;
+  color: white;
+  background-color:#4299e1;
+  
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: #130a0a;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.relative {
+  position: relative; /* Ensure relative positioning for dropdown alignment */
+}
