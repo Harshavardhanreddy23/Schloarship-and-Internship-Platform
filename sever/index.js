@@ -9,10 +9,9 @@ app.use(express.json());
 app.use(cors());
 
 // Create separate connections for Students and Admin databases
-const studentsConnection = mongoose.createConnection("mongodb://127.0.0.1:27017/Students", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+const studentsConnection = mongoose.createConnection(
+  "mongodb+srv://Rohini1305:Rohini1305db@cluster0.htaqbgz.mongodb.net/Students"
+);
 
 studentsConnection.once("open", () => {
   console.log("Connected to Students database");
@@ -22,10 +21,9 @@ studentsConnection.on("error", (err) => {
   console.error("Error connecting to Students database:", err);
 });
 
-const adminConnection = mongoose.createConnection("mongodb://127.0.0.1:27017/admin", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+const adminConnection = mongoose.createConnection(
+  "mongodb+srv://Rohini1305:Rohini1305db@cluster0.htaqbgz.mongodb.net/admin"
+);
 
 adminConnection.once("open", () => {
   console.log("Connected to Admin database");
